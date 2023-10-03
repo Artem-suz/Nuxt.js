@@ -1,0 +1,30 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__link img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.footer__title {
+  color: var(--blue);
+  margin-left: 0.625rem;
+  font-size: 1.5rem;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-item {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
