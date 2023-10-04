@@ -31,3 +31,36 @@
   font-size: 2.5rem;
   cursor: pointer;
 }
+.gh {
+  color: var(--color-icon-gh);
+}
+
+.gh:hover {
+  color: rgb(87, 87, 87);
+}
+
+.in {
+  color: var(--color-icon-in);
+}
+
+.in:hover {
+  color: #267ed6;
+}
+
+.vk {
+  color: var(--color-icon-vk);
+}
+
+.vk:hover {
+  color: #2489fb;
+}
+
+.gh:active,
+.in:active,
+.vk:active {
+  transform: translateY(1px);
+}
+
+.footer__social-item + .footer__social-item {
+  margin-left: 0.5rem;
+}
