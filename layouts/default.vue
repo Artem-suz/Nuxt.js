@@ -1,15 +1,14 @@
 <template>
-  <TheHeader/>
+  <TheHeader />
   <main class="main">
     <div class="container">
       <div class="main__wrapper">
         <slot />
       </div>
-    
-  </div>
+    </div>
   </main>
-  
-  <TheFooter/>
+
+  <TheFooter />
 </template>
 
 <style lang="scss">

@@ -1,15 +1,16 @@
+
 <template>
   <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__logo">
-            <a class="footer__link" href="#">
+            <NuxtLink to="/" class="footer__link">
               <img
-                src="./img/logo.png"
+                src="../public/logo.png"
                 title="Cryptocoin converter"
                 alt="Converter"
               />
-            </a>
+            </NuxtLink>
             <h3 class="footer__title">Cryptocoin converter</h3>
           </div>
           <div class="footer__social">

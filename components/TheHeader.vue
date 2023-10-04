@@ -1,5 +1,3 @@
-<script></script>
-
 <template>
   <header class="header">
     <div class="container">
@@ -20,7 +18,3 @@
     </div>
   </header>
 </template>
-
-<style>
-@import "@/assets/style.scss";
-</style>

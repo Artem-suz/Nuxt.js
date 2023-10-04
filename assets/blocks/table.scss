@@ -1,0 +1,37 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: var(--color-bg-table);
+  border-spacing: 0;
+  border: 1px solid var(--color-border);
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.table thead th {
+  font-weight: 500;
+}
+
+.table thead th:nth-child(odd) {
+  background-color: var(--color-alt-bg-table);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--color-bg-table);
+}
+
+.table tbody tr:hover {
+  background-color: var(--color-border);
+  transition: 0.3s;
+}
+
+.table tbody th:not(:last-child) {
+  border-right: 2px solid var(--color-border-table);
+}

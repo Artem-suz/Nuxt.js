@@ -1,0 +1,32 @@
+.total-cost {
+  display: flex;
+}
+
+.total-cost__column {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.total-cost__column {
+  width: 100%/3;
+}
+
+.bg-numbers {
+  background-color: var(--color-bg-table);
+  padding: 15px 10px;
+}
+
+.total-cost__item {
+  text-align: center;
+}
+
+.total-cost__value {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.total-cost__currency {
+  font-size: 12px;
+  margin-top: 10px;
+}

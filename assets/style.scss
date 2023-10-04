@@ -1,4 +1,5 @@
 @import "./normalize.scss";
+@import "./libs/iconsfont.min.css";
 @import "./fonts.scss";
 @import "./variables.scss";
 @import "./animations.scss";
@@ -12,6 +13,10 @@
 @import "./blocks/footer.scss";
 @import "./blocks/converter.scss";
 @import "./blocks/course-shedule.scss";
+@import "./blocks/exchanger.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/table.scss";
+@import "./blocks/total-cost.scss";
 
 html {
   scroll-behavior: smooth;
