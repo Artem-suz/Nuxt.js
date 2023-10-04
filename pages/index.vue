@@ -1,4 +1,16 @@
-<script setup></script>
+<script>
+import {mapState, mapActions, mapGetters} from 'vuex'
+
+export default {
+  // computed: { ...mapState('users')},
+  // methods: {...mapActions(['getExchancedCurrency'])},
+  mounted() {
+    console.log(this.$store.state.count);
+    this.$store.dispatch('getExchancedCurrency')
+
+  },
+}
+</script>
 
 <template>
   <Head>
